@@ -78,3 +78,44 @@ footer a {
 footer a:hover {
     color: #15202a;
 }
+.modal {
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    /* the z index is automatically set to 0 and it makes layoring possible. */
+    overflow: auto;
+    display: none;
+}
+.modal-text {
+    font-family: Arial, serif;
+    border: 1px solid #2b444e;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 150px auto;
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    padding: 2%;
+    line-height: 120%;
+}
+.modal-button {
+    padding: 14px 18px;
+    background-color: #5f7c80;
+    border: 1px solid #2b444e;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Hepta Slab', serif;
+    cursor: pointer;
+    font-size: 15px;
+}
+p {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Hepta Slab', serif;
+    font-size: 16px;
+    color: #15202a;
+}
