@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(95, 124, 128, 0.64);
+    padding: 15px;
+
+}
+h1 {
+    font-family: 'Squada One', cursive;
+    text-align: center;
+    font-size: 60px;
+}
+h2 {
+    font-family: 'Squada One', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+h3 {
+    font-family: 'Squada One', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #2b444e;
+}
+section {
+    min-width: 200px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(95, 124, 128, 0.77);
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #2b444e;
+    border-radius: 20px;
+
+}
+footer {
+    display: block;
+    float: left;
+    color: #2b444e;
+}
+footer a {
+    float: right;
+    display: inline-block;
+    color: #2b444e;
+    text-decoration: none;
+}
