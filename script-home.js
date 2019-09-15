@@ -17,15 +17,23 @@ const miniGamesButton = document.getElementById('mini-games');
 const practicalAppsButton = document.getElementById('practical-apps');
 const funStuffButton = document.getElementById('fun-stuff');
 
-function newPage(page) {
-    page.addEventListener('click', function (e) {
-        if (page === miniGamesButton) {
-            window.location.href = "http://spiano.dev/home-page/mini-games.html";
-        } else if (page === practicalAppsButton) {
-            window.location.href = "http://spiano.dev/home-page/practical-apps.html";
-        } else if (page === funStuffButton) {
-            window.location.href = "http://spiano.dev/home-page/fun-stuff.html";
-        }
 
-    })
-}
+miniGamesButton.addEventListener('click', function (e) {
+    if (e.target) {
+            window.location.href = "http://spiano.dev/home-page/mini-games.html";
+        }
+    });
+practicalAppsButton.addEventListener('click', function (e) {
+    if (e.target) {
+        window.location.href = "http://spiano.dev/home-page/practical-apps.html";
+    }
+    });
+funStuffButton.addEventListener('click', function (e) {
+    if (e.target) {
+    window.location.href = "http://spiano.dev/home-page/fun-stuff.html";
+    }
+});
+
+
+
+
