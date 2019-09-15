@@ -20,17 +20,17 @@ const funStuffButton = document.getElementById('fun-stuff');
 
 miniGamesButton.addEventListener('click', function (e) {
     if (e.target) {
-            window.location.href = "http://spiano.dev/home-page/mini-games.html";
+            window.location.href = "http://spiano.dev/mini-games.html";
         }
     });
 practicalAppsButton.addEventListener('click', function (e) {
     if (e.target) {
-        window.location.href = "http://spiano.dev/home-page/practical-apps.html";
+        window.location.href = "http://spiano.dev/practical-apps.html";
     }
     });
 funStuffButton.addEventListener('click', function (e) {
     if (e.target) {
-    window.location.href = "http://spiano.dev/home-page/fun-stuff.html";
+    window.location.href = "http://spiano.dev/fun-stuff.html";
     }
 });
 
