@@ -9,13 +9,18 @@ h1 {
     font-size: 80px;
     color: #15202a;
 }
+.close-bracket {
+    text-align: left;
+}
 
 h2 {
     font-family: 'Squada One', cursive;
-    text-align: center;
+    text-align: left;
+    margin-left: 9%;
     font-size: 45px;
     color: #2b444e;
 }
+
 h3 {
     font-family: 'Squada One', cursive;
     text-align: center;
@@ -45,7 +50,7 @@ nav {
 }
 nav a {
     font-family: 'Squada One', cursive;
-    font-size: 20px;
+    font-size: 24px;
     margin: 0 20px;
     text-decoration: none;
     color: #2b444e;
@@ -97,6 +102,7 @@ footer {
     border-radius: 15px;
 }
 footer a {
+    font-size: 20px;
     font-family: 'Squada One', cursive;
     text-align: center;
     color: #2b444e;
@@ -117,20 +123,21 @@ footer a:hover {
     width: 100%;
     z-index: 2;
     display: none;
+    overflow: scroll;
 }
 .modal-text {
     border: 1px solid #2b444e;
     background-color: white;
-    height: 600px;
+    max-height: 550px;
     width: 750px;
     border-radius: 10px;
-    margin: 200px auto;
+    margin: 50px auto;
     box-shadow: 0 2px 2px rgba(0,0,0,.2);
     padding: 2%;
-    line-height: 120%;
     overflow-y: scroll;
 }
 .modal-button {
+    display: inline;
     padding: 10px 15px;
     background-color: #5f7c80;
     border: 1px solid #2b444e;
@@ -138,6 +145,18 @@ footer a:hover {
     color: white;
     font-family: 'Hepta Slab', serif;
     font-size: 12px;
+    margin: 0 590px 0 0;
+}
+.resume-button {
+    display: inline;
+    padding: 10px 15px;
+    background-color: #5f7c80;
+    border: 1px solid #2b444e;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Hepta Slab', serif;
+    font-size: 12px;
+
 }
 p {
     padding: 5px 5px 20px;
