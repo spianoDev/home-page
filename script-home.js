@@ -13,8 +13,8 @@ const closeModal = () => {
 };
 close.addEventListener('click', closeModal);
 const openResume = () => {
-    document.getElementById('resume').style.display = 'block';
-    //modal.window.location.href = "WebDev-Resume.pdf";
+    modal.style.display = 'none';
+    document.getElementById('resume-pdf').window.location.href = "WebDev-Resume.pdf";
 };
 resumeButton.addEventListener('click', openResume);
 
