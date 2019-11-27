@@ -2,7 +2,6 @@ console.log('welcome to the rabbit hole');
 const openBtn = document.getElementById('openModal');
 const modal = document.getElementById('modal');
 const close = document.getElementById('close');
-const resumeButton = document.getElementById('resume');
 
 const openModal = () => {
     modal.style.display = 'block';
@@ -12,11 +11,15 @@ const closeModal = () => {
     modal.style.display = 'none';
 };
 close.addEventListener('click', closeModal);
-const openResume = () => {
-    modal.style.display = 'none';
-    document.getElementById('resume-pdf').window.location.href = "WebDev-Resume.pdf";
-};
-resumeButton.addEventListener('click', openResume);
+
+    const resumeButton = document.getElementById('resume');
+
+    resumeButton.addEventListener('click', function(e) {
+    if (e.target) {
+        closeModal();
+        window.open("https://www.spiano.dev/webDevResumePanaligan.pdf");
+    }
+    });
 
 const miniGamesButton = document.getElementById('mini-games');
 const practicalAppsButton = document.getElementById('practical-apps');
