@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(181, 214, 218, 0.10);
+    background-color: #F8FAFB;
     padding: 15px;
 
 }
@@ -67,7 +67,7 @@ nav {
 nav a {
     font-family: 'Squada One', cursive;
     font-size: 24px;
-    margin: 0 20px;
+    margin: 0 30px;
     text-decoration: none;
     color: #2b444e;
 }
@@ -98,27 +98,25 @@ section img {
     height: 120px;
     width: 180px;
     padding: 10px;
-    margin: 5px;
+    margin: 15px 5px 5px;
 }
-section .button {
-    display: inline;
-    width: 50px;
-    height: 50px;
-    background-color: rgba(248, 250, 251, 0.1);
-    padding: 20px;
-    margin: 10px;
-}
-.gitHub {
-    width: 64px;
-    height: 64px;
-}
-section p {
+.button {
+    text-align: center;
+    white-space:nowrap;
+    width: 60px;
+    overflow:visible;
     height: 40px;
-    width: 180px;
-    font-family: 'Hepta Slab', serif;
-    color: #15202a;
-    font-size: 12px;
-    margin-bottom: 3px;
+    margin: 10px 15px;
+    padding: 5px 7px;
+    border: 2px solid #0f304b;
+    border-radius: 5px;
+    background-color: #F8FAFB;
+    font-size: 36px;
+    color: #2b444e;
+}
+
+section p {
+
 }
 footer {
     text-align: center;
@@ -199,7 +197,7 @@ p {
     color:white;
     text-decoration:none;
     padding: 6px;
-    margin: 4px auto;
+    margin: 5px auto 20px;
     font-family: 'Squada One', cursive;
     font-size:14px;
     display:inline-block;
@@ -207,7 +205,17 @@ p {
     z-index: 1;
     height: 1em;
 }
-
+.section-head {
+    margin: 0;
+}
+.section-text {
+    height: 40px;
+    width: 180px;
+    font-family: 'Hepta Slab', serif;
+    color: #15202a;
+    font-size: 12px;
+    margin: 5px 5px 3px;
+}
 @media (max-width: 670px) {
     h1 {
         font-size: 60px;
@@ -220,5 +228,13 @@ p {
     }
     .function {
         font-size: 20px;
+    }
+    nav a {
+        font-size: 16px;
+        margin: 0 20px;
+    }
+    footer a {
+        font-size: 14px;
+        margin: 0 10px 20px;
     }
 }

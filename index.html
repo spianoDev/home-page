@@ -6,15 +6,15 @@
     <link href="style-home.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
     <nav>
         <a href="index.html">homePage</a>
-        <a href="mini-games.html">miniGames</a>
-        <a href="practical-apps.html">practicalApps</a>
-        <a href="fun-stuff.html">funStuff</a>
+        <a href="Games/mini-games.html">miniGames</a>
+        <a href="Apps/practical-apps.html">practicalApps</a>
+        <a href="Fun/fun-stuff.html">funStuff</a>
     </nav>
 </header>
 <div class="modal" id="modal">
@@ -49,22 +49,22 @@
 <h2>
     <span class="function">function </span>makeDeveloper(pianist) {
 </h2>
-<!--<h2>-->
-<!--    <span style="font-family: 'Hepta Slab', serif; font-size: 30px;">let-->
-<!--    </span>browseProjects  <span style="font-family: 'Hepta Slab', serif; font-size: 30px;"> =-->
-<!--    </span> [];-->
-<!--</h2>-->
+
 <h2 class="indent">
     <span class="function">if (</span>portfolioPieces<span class="function">) {
     </span>
 </h2>
 <div class="content">
     <section id="simon">
-        <h3>simon</h3>
-        <p>A fully developed game with DOM buttons and multiple levels of play.</p>
+        <h3 class="section-head">simon</h3>
+        <p class="section-text">A fully developed game with DOM buttons and multiple levels of play.</p>
         <img src="Images/simon-board.jpg" alt="screenshot of the gameboard">
         <p class="technology">HTML * CSS * JavaScript</p>
-        <a class="button" href="#"><img class="gitHub" src="Images/GitHub-Mark-64px.png" alt="github logo"></a>
+        <div >
+        <a class="button" target="_blank" href="https://github.com/spianoDev/simon"><i class="fa fa-github"></i></a>
+
+        <a  class="button" target="_blank" href="https://spiano.dev/simon"><i class="fa fa-play-circle"></i></a>
+        </div>
     </section>
 </div>
 <h2 class="indent">
@@ -74,45 +74,23 @@
 </h2>
 <div class="content">
     <section id="mini-games">
-        <h3>miniGames</h3>
+        <h3 class="section-head">miniGames</h3>
         <img
                 src="https://images.unsplash.com/photo-1541844053589-346841d0b34c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
                 alt="mini chess pawns">
-        <a class="photo-credit"
-           href="https://unsplash.com/@markusspiske?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
-           target="_blank" rel="noopener noreferrer"
-           title="Download free do whatever you want high-resolution photos from Markus Spiske">
-            <span style="display:inline-block;padding:2px 3px"><svg class="photo-logo"
-                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                    viewBox="0 0 32 32"><title>unsplash-logo</title><path
-                    d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span>
-            <span style="display:inline-block;padding:2px 3px">Markus Spiske</span></a>
+
     </section>
     <section id="practical-apps">
-        <h3>practicalApps</h3>
+        <h3 class="section-head">practicalApps</h3>
         <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
              alt="iPhone homescreen with app icons">
-        <a class="photo-credit"
-           href="https://unsplash.com/@williamtm?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
-           target="_blank" rel="noopener noreferrer"
-           title="Download free do whatever you want high-resolution photos from William Hook">
-        <span style="display:inline-block;padding:2px 3px"><svg class="photo-logo" xmlns="http://www.w3.org/2000/svg"
-                                                                viewBox="0 0 32 32"><title>unsplash-logo</title><path
-                d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span>
-            <span style="display:inline-block;padding:2px 3px">William Hook</span></a>
+
     </section>
     <section id="fun-stuff">
-        <h3>funStuff</h3>
+        <h3 class="section-head">funStuff</h3>
         <img src="https://images.unsplash.com/photo-1474925558543-e7a5f06e733e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
              alt="People on dock watching a man jumping from dock into water">
-        <a class="photo-credit"
-           href="https://unsplash.com/@jakobowens1?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
-           target="_blank" rel="noopener noreferrer"
-           title="Download free do whatever you want high-resolution photos from Jakob Owens">
-        <span style="display:inline-block;padding:2px 3px"><svg class="photo-logo" xmlns="http://www.w3.org/2000/svg"
-                                                                viewBox="0 0 32 32"><title>unsplash-logo</title><path
-                d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span>
-            <span style="display:inline-block;padding:2px 3px">Jakob Owens</span></a>
+
     </section>
 </div>
 <h2 class="indent">
