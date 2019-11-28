@@ -89,10 +89,11 @@ section {
     margin: 20px;
     border: 2px solid #2b444e;
     border-radius: 20px;
+    transition:all 0.5s ease-out;
 }
-section:hover {
+.larger:hover {
     transform: scale(1.1);
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 section img {
     height: 120px;
@@ -114,10 +115,10 @@ section img {
     font-size: 36px;
     color: #2b444e;
 }
-
-section p {
-
+.button:hover {
+    transform: scale(1.5);
 }
+
 footer {
     text-align: center;
     margin: 30px 0 0;
