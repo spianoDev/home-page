@@ -12,7 +12,18 @@ h1 {
 .close-bracket {
     text-align: left;
 }
-
+.indent {
+    text-align: left;
+    margin-left: 3em;
+}
+.function {
+    font-family: 'Hepta Slab', serif;
+    font-size: 30px;
+}
+.function-big {
+    font-family: 'Hepta Slab', serif;
+    font-size: 40px;
+}
 h2 {
     font-family: 'Squada One', cursive;
     text-align: left;
@@ -38,6 +49,11 @@ h4 a {
     text-decoration: none;
     color: rgba(54, 80, 90, 0.75);
     font-size: 14px;
+}
+h6 {
+    font-family: 'Squada One', cursive;
+    display:inline-block;
+    padding:2px 3px
 }
 nav {
     text-align: center;
@@ -75,7 +91,8 @@ section {
     border-radius: 20px;
 }
 section:hover {
-    color: #2b444e;
+    transform: scale(1.1);
+    transition: 1s ease;
 }
 section img {
     height: 120px;
@@ -83,13 +100,25 @@ section img {
     padding: 10px;
     margin: 5px;
 }
+section .button {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(248, 250, 251, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+.gitHub {
+    width: 64px;
+    height: 64px;
+}
 section p {
     height: 40px;
     width: 180px;
     font-family: 'Hepta Slab', serif;
     color: #15202a;
     font-size: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 footer {
     text-align: center;
@@ -165,24 +194,31 @@ p {
     font-size: 16px;
     color: #15202a;
 }
-.photo-credit {
+.technology {
     background-color:#36505a;
     color:white;
     text-decoration:none;
-    padding:4px 6px;
-    font-family: Arial, sans-serif;
-    font-size:12px;
-    font-weight:bold;
-    line-height:1;
+    padding: 6px;
+    margin: 4px auto;
+    font-family: 'Squada One', cursive;
+    font-size:14px;
     display:inline-block;
     border-radius:3px;
     z-index: 1;
+    height: 1em;
 }
-.photo-logo {
-    height:10px;
-    width:auto;
-    position:relative;
-    vertical-align:middle;
-    top:-2px;
-    fill: white;
+
+@media (max-width: 670px) {
+    h1 {
+        font-size: 60px;
+    }
+    .function-big {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .function {
+        font-size: 20px;
+    }
 }
