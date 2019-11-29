@@ -24,7 +24,6 @@ close.addEventListener('click', closeModal);
 const miniGamesButton = document.getElementById('mini-games');
 const practicalAppsButton = document.getElementById('practical-apps');
 const funStuffButton = document.getElementById('fun-stuff');
-const simonButton = document.getElementById('simon');
 
 miniGamesButton.addEventListener('click', function (e) {
     if (e.target) {
@@ -41,11 +40,7 @@ funStuffButton.addEventListener('click', function (e) {
     window.location.href = "Fun/fun-stuff.html";
     }
 });
-simonButton.addEventListener('click', function (e) {
-    if (e.target) {
-        window.location.href = "https://spiano.dev/simon";
-    }
-});
+
 
 
 
