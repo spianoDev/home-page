@@ -24,6 +24,7 @@ close.addEventListener('click', closeModal);
 const miniGamesButton = document.getElementById('mini-games');
 const practicalAppsButton = document.getElementById('practical-apps');
 const funStuffButton = document.getElementById('fun-stuff');
+const edTechButton = document.getElementById('ed-tech');
 
 miniGamesButton.addEventListener('click', function (e) {
     if (e.target) {
@@ -40,7 +41,11 @@ funStuffButton.addEventListener('click', function (e) {
     window.location.href = "Fun/fun-stuff.html";
     }
 });
-
+edTechButton.addEventListener('click', function (e) {
+    if (e.target) {
+        window.location.href = "EdTech/ed-tech.html";
+    }
+});
 
 
 
