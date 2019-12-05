@@ -43,6 +43,37 @@
         <p>As of November 2019, I am a GA graduate on a quest for a web development position. </p>
     </div>
 </div>
+<div class="modal" id="contact">
+    <div class="modal-text">
+        <div id="contact-header">
+            <button class="modal-button" id="close-contact" >Close</button>
+        </div>
+        <h3>Please use this form to send me a message</h3>
+        <form
+                action="MAILTO:spianodev@gmail.com"
+                method="post"
+                enctype="text/plain"
+        >
+            <label class="contact-info" >Name</label>
+            <input class="contact-name" type="text" name="name" value="" />
+            <br />
+            <label class="contact-info" >Email (required)</label>
+            <input class="contact-email" type="email" name="email" value="" required />
+            <br />
+            <label class="contact-info" >Message (required)</label>
+            <input
+                    class="field contact-message"
+                    type="text"
+                    name="message"
+                    value=""
+                    required
+            />
+            <br />
+            <input class="modal-button" type="submit" value="Send" />
+            <input class="resume-button" type="reset" value="Clear" />
+        </form>
+    </div>
+</div>
 <h1>
     <span class="function-big" >&lth1></span> spianoDev <span
         class="function-big">&lt/h1></span>
@@ -151,7 +182,7 @@
     <a href="webDevResumePanaligan.pdf" id="resume-pdf" target="_blank">Resume</a>
     <a href="https://www.linkedin.com/in/sarahpanaligan/" target="_blank">LinkedIn</a>
     <a href="https://github.com/spianoDev" target="_blank">GitHub</a>
-    <a href="#">Contact</a>
+    <a href="#" id="openContact">Contact</a>
 </footer>
 
 </body>

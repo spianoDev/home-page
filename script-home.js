@@ -2,6 +2,9 @@ console.log('welcome to the rabbit hole');
 const openBtn = document.getElementById('openModal');
 const modal = document.getElementById('modal');
 const close = document.getElementById('close');
+const openContactMe = document.getElementById('openContact');
+const contact = document.getElementById('contact');
+const closeContactMe = document.getElementById('close-contact');
 
 const openModal = () => {
     modal.style.display = 'block';
@@ -20,6 +23,14 @@ close.addEventListener('click', closeModal);
         window.open("https://www.spiano.dev/webDevResumePanaligan.pdf");
     }
     });
+const openContact = () => {
+    contact.style.display = 'block';
+};
+openContactMe.addEventListener('click', openContact);
+const closeContact = () => {
+    contact.style.display = 'none';
+};
+closeContactMe.addEventListener('click', closeContact);
 
 const miniGamesButton = document.getElementById('mini-games');
 const practicalAppsButton = document.getElementById('practical-apps');
