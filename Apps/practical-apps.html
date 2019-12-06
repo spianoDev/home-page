@@ -16,9 +16,40 @@
         <a href="../Games/mini-games.html">miniGames</a>
         <a href="practical-apps.html">practicalApps</a>
         <a href="../Fun/fun-stuff.html">funStuff</a>
-        <a href="EdTech/ed-tech.html">edTech</a>
+        <a href="../EdTech/ed-tech.html">edTech</a>
     </nav>
 </header>
+<div class="modal" id="contactApp">
+    <div class="modal-text">
+        <div id="contact-header">
+            <button class="modal-button" id="closeContactApp" >Close</button>
+        </div>
+        <h3>Please use this form to send me a message</h3>
+        <form
+                action="MAILTO:spianodev@gmail.com"
+                method="post"
+                enctype="text/plain"
+        >
+            <label class="contact-info" >Name</label>
+            <input class="contact-name" type="text" name="name" value="" />
+            <br />
+            <label class="contact-info" >Email (required)</label>
+            <input class="contact-email" type="email" name="email" value="" required />
+            <br />
+            <label class="contact-info" >Message (required)</label>
+            <input
+                    class="field contact-message"
+                    type="text"
+                    name="message"
+                    value=""
+                    required
+            />
+            <br />
+            <input class="modal-button" type="submit" value="Send" />
+            <input class="resume-button" type="reset" value="Clear" />
+        </form>
+    </div>
+</div>
 <h1>
     <span class="function-big">&lth1></span> spianoDev <span class="function-big">&lt/h1></span>
 </h1>
@@ -47,10 +78,12 @@
 </div>
 
 <footer>
-    <a href="../webDevResumePanaligan.pdf" target="_blank">Resume</a>
+    <a href="../Resume-Panaligan.pdf" target="_blank">Resume</a>
     <a href="https://www.linkedin.com/in/sarahpanaligan/" target="_blank">LinkedIn</a>
     <a href="https://github.com/spianoDev" target="_blank">GitHub</a>
+    <a href="#" id="openContactApp">Contact</a>
 </footer>
 
 </body>
+<script src="script-apps.js"></script>
 </html>

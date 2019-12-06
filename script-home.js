@@ -1,4 +1,5 @@
 console.log('welcome to the rabbit hole');
+
 const openBtn = document.getElementById('openModal');
 const modal = document.getElementById('modal');
 const close = document.getElementById('close');
@@ -20,7 +21,7 @@ close.addEventListener('click', closeModal);
     resumeButton.addEventListener('click', function(e) {
     if (e.target) {
         closeModal();
-        window.open("https://www.spiano.dev/webDevResumePanaligan.pdf");
+        window.open("https://www.spiano.dev/Resume-Panaligan.pdf");
     }
     });
 const openContact = () => {
