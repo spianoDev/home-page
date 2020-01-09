@@ -50,7 +50,7 @@ practicalAppsButton.addEventListener('click', function (e) {
     });
 funStuffButton.addEventListener('click', function (e) {
     if (e.target) {
-    window.location.href = "Fun/fun-stuff.html";
+    window.location.href = "Tutorials/fun-stuff.html";
     }
 });
 edTechButton.addEventListener('click', function (e) {

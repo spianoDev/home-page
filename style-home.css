@@ -212,8 +212,14 @@ p {
     z-index: 1;
     height: 1em;
 }
+.tech-icon {
+    height: 2em;
+    font-size: 12px;
+    width: 2em;
+}
 .section-head {
     margin: 0;
+
 }
 .section-text {
     height: 40px;
